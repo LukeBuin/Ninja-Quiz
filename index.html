@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Ninja Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Top Section -->
+<div class="intro py-3 text-center">
+    <div class="container">
+        <h2 class="text-primary display-3 bg-white py-4">Ninja Quiz</h2>
+    </div>
+</div>
+
+<!-- Results section -->
+<div class="results py-4 d-none bg-white text-center">
+    <div class="container lead">
+        <p>You are <span class="text-primary display-4 p-3">0%</span>Ninja</p>
+    </div>
+</div>
+
+
+<!-- Quiz section -->
+<div class="quiz my-5 bg-primary">
+    <div class="container">
+        <h2 class="text-white display-4 py-4">Question Time..</h2>
+
+
+        <form class="quiz-form text-white py-2">
+            <div class="my-5">
+                <p class="lead font-weight-normal">How do you give a ninja directions?</p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q1" value="A" checked>
+                    <label class="form-check-label">Show them a map</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q1" value="B">
+                    <label class="form-check-label">Don't worry a ninja will find you</label>
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">What is 2 x 3?</p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q2" value="A" checked>
+                    <label class="form-check-label">Is it 6</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q2" value="B">
+                    <label class="form-check-label">Or is it 9?</label>
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">Why is the sky Bule?</p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q3" value="A" checked>
+                    <label class="form-check-label">Because of the ocean.</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q3" value="B">
+                    <label class="form-check-label">Because of the way the Sun light shines through the atmosphere</label>
+                </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">How old is the Queen of England?</p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q4" value="A" checked>
+                    <label class="form-check-label">93</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="Q4" value="B">
+                    <label class="form-check-label">94</label>
+                </div>
+            </div>
+            <div class="text-center">
+                <input class="btn btn-light my-3" type="submit">
+            </div>
+        </form>
+    </div>
+    
+</div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
